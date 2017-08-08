@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>个人中心</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free HTML5 Template by FREEHTML5.CO"/>
+    <meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive"/>
+    <meta name="author" content="FREEHTML5.CO"/>
+
+    <!-- Facebook and Twitter integration -->
+    <meta property="og:title" content=""/>
+    <meta property="og:image" content=""/>
+    <meta property="og:url" content=""/>
+    <meta property="og:site_name" content=""/>
+    <meta property="og:description" content=""/>
+    <meta name="twitter:title" content=""/>
+    <meta name="twitter:image" content=""/>
+    <meta name="twitter:url" content=""/>
+    <meta name="twitter:card" content=""/>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'> -->
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="css/icomoon.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- Superfish -->
+    <link rel="stylesheet" href="css/superfish.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <!-- Modernizr JS -->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+    <script src="js/jquery.min.js"></script>
+
+    <style type="text/css">
+        /*=========分页样式控制========*/
+        div.badoo {
+            padding: 10px 10px;
+            font-size: 20px;
+            color: #48b9ef;
+            font-family: arial, helvetica, sans-serif;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        div.badoo a {
+            border: #f0f0f0 2px solid;
+            padding: 2px 5px;
+            margin: 0px 2px;
+            border-left: #f0f0f0 2px solid;
+            color: #48b9ef;
+            text-decoration: none;
+        }
+
+        div.badoo a:hover {
+            border: #ff5a00 2px solid;
+            color: #ff5a00;
+        }
+
+        div.badoo a:active {
+            border: #ff5a00 2px solid;
+            color: #ff5a00;
+        }
+
+        div.badoo span.current {
+            border: #ff5a00 2px solid;
+            padding: 2px 5px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #ff6c16;
+        }
+
+        div.badoo span.disabled {
+            display: none
+        }
+
+        /*================内容样式控制==================*/
+        .all {
+            width: 100%;
+            height: auto;
+            clear: both;
+            position: relative;
+            padding-top: 250px;
+            z-index: 2;
+        }
+
+        .myMsgDiv {
+            width: 100%;
+            height: auto;
+            position: relative;
+            clear: both;
+            margin-bottom: 200px;
+        }
+
+        .myMsgDiv .imgDiv {
+            width: 50%;
+            height: auto;
+            float: left;
+        }
+
+        .myMsgDiv .imgDiv img {
+            width: 150px;
+            height: 150px;
+            float: right;
+            background: gray;
+            margin-right: 100px;
+            border-radius: 90px 90px 90px 90px;
+        }
+
+        .myMsgDiv .textDiv {
+            width: 50%;
+            height: auto;
+            float: right;
+        }
+
+        .myMsgDiv .textDiv span {
+            color: white;
+            float: left;
+            font-weight: bold;
+        }
+
+        .myMsgDiv .textDiv #myName {
+            color: white;
+            float: left;
+            font-size: 30px;
+        }
+
+        .projectDiv {
+            width: 100%;
+            height: auto;
+            clear: both;
+            position: relative;
+            text-align: center;
+        }
+        .projectDiv .projectHead{
+            width: 200px;
+            margin: 50px auto;
+        }
+        .zwDiv {
+            width: 100%;
+            height: 1px;
+            clear: both;
+        }
+    </style>
+
+</head>
+<body>
+<div id="fh5co-wrapper">
+    <div id="fh5co-page">
+        <div id="fh5co-header">
+            <header id="fh5co-header-section">
+                <div class="container">
+                    <div class="nav-header">
+                        <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+                        <h1 id="fh5co-logo"><a href="index.html">Glow</a></h1>
+                        <!-- START #fh5co-menu-wrap -->
+                        <nav id="fh5co-menu-wrap" role="navigation">
+                            <ul class="sf-menu" id="fh5co-primary-menu">
+                                <li><a href="index.html">首页</a></li>
+                                <li>
+                                    <a href="portfolio.html" class="fh5co-sub-ddown">交流项目</a>
+                                    <ul class="fh5co-sub-menu">
+                                        <li>
+                                            <a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template"
+                                               target="_blank">Build</a></li>
+                                        <li>
+                                            <a href="http://freehtml5.co/preview/?item=work-free-html5-template-bootstrap"
+                                               target="_blank">Work</a></li>
+                                        <li>
+                                            <a href="http://freehtml5.co/preview/?item=light-free-html5-template-bootstrap"
+                                               target="_blank">Light</a></li>
+                                        <li>
+                                            <a href="http://freehtml5.co/preview/?item=relic-free-html5-template-using-bootstrap"
+                                               target="_blank">Relic</a></li>
+                                        <li>
+                                            <a href="http://freehtml5.co/preview/?item=display-free-html5-template-using-bootstrap"
+                                               target="_blank">Display</a></li>
+                                        <li>
+                                            <a href="http://freehtml5.co/preview/?item=sprint-free-html5-template-bootstrap"
+                                               target="_blank">Sprint</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="project_teach.html" class="fh5co-sub-ddown">教学项目</a>
+                                    <ul class="fh5co-sub-menu">
+                                        <!--<li><a href="left-sidebar.html">Web Development</a></li>
+                                        <li><a href="right-sidebar.html">Branding &amp; Identity</a></li>
+                                        <li>
+                                            <a href="#" class="fh5co-sub-ddown">Free HTML5</a>
+                                            <ul class="fh5co-sub-menu">
+                                                <li><a href="http://freehtml5.co/preview/?item=build-free-html5-bootstrap-template" target="_blank">Build</a></li>
+                                                <li><a href="http://freehtml5.co/preview/?item=work-free-html5-template-bootstrap" target="_blank">Work</a></li>
+                                                <li><a href="http://freehtml5.co/preview/?item=light-free-html5-template-bootstrap" target="_blank">Light</a></li>
+                                                <li><a href="http://freehtml5.co/preview/?item=relic-free-html5-template-using-bootstrap" target="_blank">Relic</a></li>
+                                                <li><a href="http://freehtml5.co/preview/?item=display-free-html5-template-using-bootstrap" target="_blank">Display</a></li>
+                                                <li><a href="http://freehtml5.co/preview/?item=sprint-free-html5-template-bootstrap" target="_blank">Sprint</a></li>
+                                            </ul>
+                                        </li>-->
+                                        <li><a href="#">最新教学项目</a></li>
+                                        <li><a href="#">最热教学项目</a></li>
+                                        <li><a href="#">Photography</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="my.html">个人中心</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <div class="fh5co-hero fh5co-hero-2">
+            <div class="fh5co-overlay"></div>
+            <div class="fh5co-cover fh5co-cover_2 text-center" data-stellar-background-ratio="0.5"
+                 style="background-image: url(images/cover_bg_3.jpg);">
+                <div class="all animate-box">
+                    <!--=======上面我的基本信息========-->
+                    <div class="myMsgDiv">
+                        <!--左面头像-->
+                        <div class="imgDiv">
+                            <img src="images/login/4545454.gif"/>
+                        </div>
+                        <!--右面文本信息-->
+                        <div class="textDiv">
+                            <p id="myName">我的名称
+                            <p><br><br><br>
+                            <p>
+                                <span>EMALL:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>1115427044@qq.com</span>
+                            </p><br>
+                            <p><span>联系电话:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span>15700586290</span></p>
+                        </div>
+                        <!--底部占位div-->
+                        <div class="zwDiv"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--===========中间我的项目发布记录==================-->
+        <div class="projectDiv">
+            <div class="projectHead">
+                <h3 style="color: #ef6249;font-weight: bold;">发布记录</h3>
+                <span>ProjectRelease</span>
+                <p style="color: #ef6249;">__________</p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <!--===========项目展示==================-->
+                    <div class="col-lg-4 col-md-4">
+                        <div class="fh5co-blog animate-box">
+                            <a href="#"><img class="img-responsive" src="images/login/yunclub.jpg" alt=""></a>
+                            <div class="blog-text">
+                                <div class="prod-title">
+                                    <h3>项目名称：</h3>
+                                    <h3>45 Minimal Worksspace Rooms for Web Savvys</h3>
+                                    <span class="posted_by">项目发布时间：</span>
+                                    <span>Sep. 15th</span>
+                                    <p>项目简介：</p>
+                                    <p>Far far away, behind the word mountains, far from the countries
+                                        Vokalia and
+                                        Consonantia, there live the blind texts.</p>
+                                    <p>项目来源：成都职业技术学院</p>
+                                    <span class="comment"><a href="">点赞量<i
+                                            class="icon-bubble2"></i></a></span>
+                                    <span class="comment"><a href="">浏览量<i
+                                            class="icon-bubble2"></i></a></span>
+                                    <span class="comment"><a href="">下载量<i
+                                            class="icon-bubble2"></i></a></span>
+                                    <a href="#" class="btn btn-primary">项目详细信息</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--==========分页组件============-->
+            <div class="badoo">
+                        <span class="disabled">
+                        <  Prev</span><span class="current">1</span>
+                <a href="#?page=2">2</a>
+                <a href="#?page=3">3</a>
+                <a href="#?page=4">4</a>
+                <a href="#?page=5">5</a>
+                <a href="#?page=6">6</a><a href="#?page=7">7</a>
+                ...
+                <a href="#?page=199">199</a>
+                <a href="#?page=200">200</a>
+                <a href="#?page=2">Next > </a>
+            </div>
+            <!--底部占位div-->
+            <div class="zwDiv"></div>
+        </div>
+
+        <footer>
+            <div id="footer" style="padding: 0px 0px;">
+                <div class="fh5co-copyright text-center" style="border: none;">
+                    <p>&copy; 2016 Free HTML5 template. All Rights Reserved. <span>Designed with <i
+                            class="icon-heart"></i> by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images by <a
+                            href="http://unsplash.com/" target="_blank">Unsplash</a></span></p>
+                </div>
+            </div>
+        </footer>
+
+
+    </div>
+    <!-- END fh5co-page -->
+
+</div>
+<!-- END fh5co-wrapper -->
+
+<!-- jQuery -->
+
+
+<script src="js/jquery.min.js"></script>
+<!-- jQuery Easing -->
+<script src="js/jquery.easing.1.3.js"></script>
+<!-- Bootstrap -->
+<script src="js/bootstrap.min.js"></script>
+<!-- Waypoints -->
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- Stellar -->
+<script src="js/jquery.stellar.min.js"></script>
+<!-- Superfish -->
+<script src="js/hoverIntent.js"></script>
+<script src="js/superfish.js"></script>
+
+<!-- Main JS (Do not remove) -->
+<script src="js/main.js"></script>
+
+</body>
+</html>
+
